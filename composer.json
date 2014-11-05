@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nesbot/Carbon": "*",
+        "austinhyde/iniparser": "dev-master"
+    }
+}

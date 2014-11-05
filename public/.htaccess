@@ -1,0 +1,8 @@
+#rewrites
+RewriteEngine On
+#dont rewrite existing file requests
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-d
+#everything else to index.php to start application
+RewriteRule ^.*$ index.php [NC,L]
