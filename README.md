@@ -16,3 +16,10 @@ Features:
 - config files / bootstrap functionality 
 - database interaction with dynamic classes
 - view templates 
+
+
+Sample working url's for project:
+/ , /default => default module, index controller, index action
+/index/info => default module, index controller, info action
+/admin/index/index => admin module, index controller, index action
+
